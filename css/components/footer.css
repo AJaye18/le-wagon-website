@@ -1,0 +1,22 @@
+footer {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0 30px 0;
+    color: #ffff;
+}
+
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-around;
+    font-size: 16px;
+}
+
+.contact-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}

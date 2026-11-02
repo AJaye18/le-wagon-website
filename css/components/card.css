@@ -1,0 +1,47 @@
+.card-profile {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 20px auto;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.card-section {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+}
+
+.card-white {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    flex-basis: 200px;
+    height: 210px;
+    flex-grow: 1;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+.card-white:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+    transform: scale(1.05);
+}
+.card-image {
+    max-width: 100px;
+    border-radius: 5px;
+}
+.card-white h2 {
+    margin: 0;
+}
